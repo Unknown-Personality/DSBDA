@@ -7,7 +7,7 @@ from sklearn.linear_model import LinearRegression
 
 from sklearn.model_selection import train_test_split
 
-air=pd.read_csv(r'/Users/adityanikam/Desktop/Programming/Python/airquality.csv',sep=",")
+air=pd.read_csv(r'path',sep=",")
 
 #Data Cleaning
 '''print("Values Present for Each Column:")
