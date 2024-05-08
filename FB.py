@@ -1,6 +1,6 @@
 import pandas as pd
 
-df=pd.read_csv(r'/Users/adityanikam/Desktop/Programming/Python/dataset_Facebook.csv',sep=';')
+df=pd.read_csv(r'path',sep=';')
 #print(df.head())
 #print(df.shape)
 
