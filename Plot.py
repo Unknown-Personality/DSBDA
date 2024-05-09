@@ -74,7 +74,16 @@ plt.show()'''
 
 
 #bar plot using seaborn
-a=['Sci','Mar','Hindi','English']
+'''a=['Sci','Mar','Hindi','English']
 b=[20,25,10,40]
 sns.barplot(x=a,y=b,width=0.2,color='green')
-plt.show()
+plt.show()'''
+
+#line plot using seaborn
+'''a = ['Sci', 'Mar', 'Hindi', 'English']
+b = [20, 25, 10, 40]
+sns.pointplot(x=a, y=b, color='blue')
+plt.xlabel('Subjects')
+plt.ylabel('Scores')
+plt.title('Point Plot of Scores by Subject')
+plt.show()'''
