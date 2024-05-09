@@ -87,3 +87,24 @@ plt.xlabel('Subjects')
 plt.ylabel('Scores')
 plt.title('Point Plot of Scores by Subject')
 plt.show()'''
+
+#Area chart using Matplotlib
+'''x=range(1,6)
+y=[[1,4,6,8,9],[2,2,7,10,12],[2,8,5,10,6]]
+ax=plt.gca()
+ax.stackplot(x,y,labels=['A','B','C'],alpha=0.5)
+plt.legend(loc='upper left')
+plt.title('Chart Title')
+plt.xlabel('X label')
+plt.ylabel('Y label')
+plt.show()'''
+
+#Area chart using seaborn
+
+'''years_of_exp=[1,2,3]
+salary=[[6,8,10],[4,5,9],[3,5,7]]
+plt.stackplot(years_of_exp,salary,labels=['Company A','Company B','Company C'])
+plt.title('Chart Title')
+plt.xlabel('X label')
+plt.ylabel('Y label')
+plt.show()'''
